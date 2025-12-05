@@ -8,19 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @ObservedObject var vm: AnimalViewModel
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            CoverImageView(vm: vm)
         }
-        .padding()
-        .vTop()
-        .hLeading()
+
     }
 }
 
 #Preview {
-    ContentView()
+    ContentView(vm: AnimalViewModel())
 }
