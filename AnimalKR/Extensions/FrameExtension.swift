@@ -9,8 +9,6 @@ import SwiftUI
 
 
 //MARK: - ResponsiveScreen
-<<<<<<< HEAD
-=======
 extension UIWindow {
     static var currentWin: UIWindow? {
         UIApplication.shared.connectedScenes
@@ -62,4 +60,3 @@ extension View {
         self.frame(maxWidth: .infinity, alignment: .trailing)
     }
 }
->>>>>>> origin/main
