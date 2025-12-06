@@ -12,12 +12,6 @@ struct ContentView: View {
     @ObservedObject var vm: AnimalViewModel
     
     var body: some View {
-<<<<<<< HEAD
-        VStack {
-            CoverImageView(vm: vm)
-        }
-
-=======
         NavigationStack {
             List {
                 // 1. Cover Image - Hero Image
@@ -45,8 +39,6 @@ struct ContentView: View {
             .navigationBarTitleDisplayMode(.inline)
             .listStyle(.plain)
         }//: NAVIGATIONSTACK
-        
->>>>>>> origin/main
     }
 }
 
