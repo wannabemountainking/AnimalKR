@@ -27,9 +27,5 @@ struct CoverImageView: View {
 
 #Preview {
     CoverImageView(vm: AnimalViewModel())
-<<<<<<< HEAD
-=======
-//        .previewLayout(.fixed(width: 400, height: 300))
->>>>>>> origin/main
 }
 
