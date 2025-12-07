@@ -23,7 +23,11 @@ struct ContentView: View {
                 ForEach(vm.animals) { animal in
                     NavigationLink {
                         // destination
+<<<<<<< HEAD
                         
+=======
+                        DetailView(animal: animal)
+>>>>>>> origin/main
                     } label: {
                         // list label
                         AnimalListView(animal: animal)
@@ -39,10 +43,18 @@ struct ContentView: View {
             .navigationBarTitleDisplayMode(.inline)
             .listStyle(.plain)
         }//: NAVIGATIONSTACK
+<<<<<<< HEAD
+=======
+        
+>>>>>>> origin/main
     }
 }
 
 #Preview {
     ContentView(vm: AnimalViewModel())
 }
+<<<<<<< HEAD
 // 1.Cover Image - hero image
+=======
+
+>>>>>>> origin/main
