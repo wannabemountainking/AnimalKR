@@ -20,7 +20,7 @@ struct HomeView: View {
                     Text("Home")
                 }
             //2. VideoView
-            VideoView()
+            VideoView(vm: vm)
                 .tabItem {
                     Image(systemName: "play.rectangle")
                     Text("Video")
