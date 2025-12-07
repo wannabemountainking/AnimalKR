@@ -26,7 +26,7 @@ struct HomeView: View {
                     Text("Video")
                 }
             //3. GalleryView
-            GalleryView()
+            GalleryView(vm: vm)
                 .tabItem {
                     Image(systemName: "photo")
                     Text("Gallery")
