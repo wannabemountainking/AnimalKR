@@ -24,7 +24,7 @@ struct GalleryView: View {
                             Circle()
                                 .stroke(.accent.opacity(0.8), lineWidth: 3)
                         )
-                        
+                    
                     // 2. Slider
                     Slider(value: $vm.gridColumns, in: 2...4, step: 1)
                         .padding()
